@@ -1,0 +1,27 @@
+{
+  "name": "typescript-digitalnao",
+  "version": "1.0.0",
+  "description": "evidencia ciclo ID 1 Reto 7 digital Nao. Ejemplos de uso de TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "ts-node",
+    "multiplier": "ts-node multiplier.ts",
+    "calculator":"ts-node calculator.ts",
+    "enum":"ts-node enum.ts",
+    "anyU":"ts-node anyU.ts",
+    "union":"ts-node union.ts",
+    "inter":"ts-node inter.ts",
+    "coleccion":"ts-node coleccion.ts"
+
+  },
+  "author": "Maria Jazmin Feliu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
